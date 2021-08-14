@@ -11,4 +11,10 @@ bable setup: npm install --save-dev babel-core babel-preset-env
         npm install --save-dev @babel/core @babel/preset-env
         npm install -D babel-loader @babel/core @babel/preset-env webpack
         npm install -g npm@7.22.0//for update version
+webpack install command- npm install webpack-dev-server --save-dev
+
+
+constant,let,var-- contant cant redeclr or overwrite fixed value.
+
+//callback mainly used for asyncronus...but for big asyuncro,,it;s difficult to mnge so prmise build in obj.
                
