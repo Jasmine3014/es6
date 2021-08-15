@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("//constant \n// const a=10;\n// a=4;\n// console.log(a)\n//cant rewritw const it is used for fixed variable which dont need to change..\n//var\nvar a = 3;\n\nif (true) {\n  var a = 8;\n  console.log(a);\n}\n\nconsole.log(a); //bot output 8 ...but it should be 8,3...so this prbolem slove let...let works inside the block..cant rewrite inside the block.\n\n//# sourceURL=webpack://es6/./src/index.js?");
+eval("//constant \n// const a=10;\n// a=4;\n// console.log(a)\n//cant rewritw const it is used for fixed variable which dont need to change..\n//var\n// var a=3;\n// if(true){\n//     var a=8;\n//     console.log(a)\n// }\n// console.log(a) //bot output 8 ...but it should be 8,3...so this prbolem slove let...let works inside the block..cant rewrite inside the block.\n//promise..asyncronus\nconsole.log('hello');\nsetTimeout(function () {\n  console.log(\"i am in timer\", 2000);\n});\nconsole.log(\"i am third\");\n\n//# sourceURL=webpack://es6/./src/index.js?");
 
 /***/ })
 
