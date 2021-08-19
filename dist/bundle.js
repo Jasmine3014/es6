@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("var a = 10;\nvar b = 4;\n\nvar sum = function sum(a, b) {\n  return a + b;\n};\n\nconsole.log(sum(a, b));\n\n//# sourceURL=webpack://es6/./src/index.js?");
+eval("//constant \n// const a=10;\n// a=4;\n// console.log(a)\n//cant rewritw const it is used for fixed variable which dont need to change\n//var\nvar a = 3;\n\nif (true) {\n  var a = 8;\n  console.log(a);\n}\n\nconsole.log(a);\n\n//# sourceURL=webpack://es6/./src/index.js?");
 
 /***/ })
 
