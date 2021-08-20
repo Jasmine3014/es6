@@ -2,7 +2,7 @@
 // const a=10;
 // a=4;
 // console.log(a)
-//cant rewritw const it is used for fixed variable which dont need to change...outside of the bloc value can change
+//cant rewritw const it is used for fixed variable which dont need to change..
 
 //var
 var a=3;
