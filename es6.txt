@@ -1,0 +1,10 @@
+bable- a tranfiler ....it transefer es6  to es5...cz our  all browser is not updated...so doesnt support all features. 
+webpack-is bundler tool. bundle all file..like all js into one js.
+
+web-pack environment setup-- npm init -y
+bable setup: npm install --save-dev babel-core babel-preset-env
+             npm install --save-dev webpack babel-loader 
+             npm install --save-dev webpack-cli -D    
+
+
+                 
