@@ -1,0 +1,19 @@
+
+.babel.rc file create
+code:
+{
+    "presets": [
+        "@babel/preset-env"
+      ]
+}
+
+//
+folder src create and its inside index.js create
+
+//pakage.json change
+"scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+
+ 
